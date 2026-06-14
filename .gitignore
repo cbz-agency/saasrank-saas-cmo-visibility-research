@@ -1,0 +1,10 @@
+node_modules/
+scraper/node_modules/
+data/tranco-top1m.csv
+data/tranco-top1m.csv.zip
+data/top-1m.csv
+data/progress.log
+data/build-list.log
+data/scrape.log
+.DS_Store
+*.log

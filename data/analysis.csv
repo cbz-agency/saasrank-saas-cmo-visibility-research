@@ -1,0 +1,28 @@
+stat_id,stat_label,numerator,denominator,percent,note
+headline_A,cmo_publicly_identified_pct,22,261,8.4,PRIMARY HEADLINE: % of usable sample (N=261) with publicly discoverable CMO
+headline_B,marketing_leader_publicly_identified_pct,30,261,11.5,ALT HEADLINE: % with ANY publicly discoverable marketing leader (CMO/VP/Head of Marketing)
+headline_C,marketing_leader_among_real_teams_pct,30,200,15,TIGHTER: % of companies with a public team page (N=200) that show a marketing leader
+1,no_marketing_leader_pct,230,261,88.1,sites with NO marketing-titled person on team or homepage
+2a,single_marketing_lead_pct,26,261,10,sites with exactly 1 marketing-titled person
+2b,multi_person_marketing_team_pct,11,261,4.2,sites with 2+ marketing-titled people
+3,avg_marketing_titles_count,,,0.20,mean count of marketing-titled people across all sites
+4a,title_cmo_pct,22,261,8.4,sites with at least one CMO title
+4b,title_vp_marketing_pct,3,261,1.1,sites with at least one VP Marketing title
+4c,title_head_of_marketing_pct,5,261,1.9,sites with at least one Head of Marketing
+4d,title_marketing_director_pct,2,261,0.8,sites with Marketing Director
+4e,title_marketing_manager_pct,12,261,4.6,sites with Marketing Manager only
+5,hiring_marketing_pct,33,261,12.6,sites with at least 1 open marketing role on careers page
+6,founder_marketing_title_pct,0,261,0,sites with founder titled with marketing function
+7,fractional_mention_pct,0,261,0,sites mentioning fractional or outsourced CMO/marketing
+8a,growth_led_pct,1,261,0.4,sites with Head of Growth / VP Growth
+8b,marketing_led_pct,28,261,10.7,sites with CMO / VP / Head of Marketing
+9,content_seo_lead_pct,3,261,1.1,sites with Head of Content / SEO leadership
+11,has_linkedin_pct,216,261,82.8,sites with LinkedIn company URL on homepage
+confidence_high,high_confidence_classifications,188,261,72,team page + LinkedIn + careers all available
+confidence_med,medium_confidence_classifications,57,261,21.8,2 of 4 signals available
+confidence_low,low_confidence_classifications,16,261,6.1,limited signals — caveat in pillar
+data_team_page_pct,sites_with_team_page,200,261,76.6,team page found at one of expected paths
+data_careers_page_pct,sites_with_careers_page,214,261,82,careers page found at one of expected paths
+data_avg_jobs,avg_marketing_jobs_when_careers_present,,,0.20,mean count where careers page found
+total_processed,total_rows_in_raw_scrape,266,,,all rows in raw-scrape.csv (incl errors)
+total_usable,usable_classifications,261,266,98.1,rows with status=ok

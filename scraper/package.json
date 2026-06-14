@@ -1,0 +1,16 @@
+{
+  "name": "saasrank-saas-cmo-visibility-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build-list": "node build-site-list.mjs",
+    "scrape": "node scrape.mjs",
+    "refine": "node refine.mjs",
+    "analyze": "node analyze.mjs",
+    "all": "npm run build-list && npm run scrape && npm run refine && npm run analyze"
+  },
+  "dependencies": {
+    "playwright": "^1.45.0"
+  }
+}
